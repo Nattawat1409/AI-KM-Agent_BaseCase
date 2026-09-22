@@ -1,0 +1,17 @@
+[project]
+name = "ai-km-agent-basecase"
+version = "0.1.0"
+description = "Base case for AI-personalize benchmark — KM (Buildee) hybrid dense/sparse retrieval, ported from cbm-system (dev)"
+requires-python = ">=3.12"
+dependencies = [
+    "pinecone>=7.3.0,<8",
+    "langchain-pinecone>=0.2.13,<0.3",
+    "langchain-google-genai>=4.2.1,<5",
+    "langchain-core>=1.2.15,<2",
+    "langchain-classic>=1.0.1,<2",
+    "python-dotenv>=1.2.1,<2",
+    "langdetect>=1.0.9,<2",
+    "langchain>=1.4.1",
+    "numpy>=2.5.3",
+    "dotenv>=0.9.9",
+]
